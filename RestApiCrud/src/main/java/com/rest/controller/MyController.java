@@ -17,10 +17,11 @@ public class MyController {
 	private MyService service;
 
 	@PostMapping("/add")
-	public ResponseEntity<MyStudent> addStudent(@RequestParam("rollno") int rollno,@RequestParam("student_name") String student_name,
-			@RequestParam("clg_name") String clg_name, @RequestParam("branch_name") String branch_name) {
+	public ResponseEntity<MyStudent> addStudent(@RequestParam("rollno") int rollno,
+			@RequestParam("student_name") String student_name, @RequestParam("clg_name") String clg_name,
+			@RequestParam("branch_name") String branch_name) {
 		try {
-			MyStudent s = new MyStudent(rollno,student_name, clg_name, branch_name);
+			MyStudent s = new MyStudent(rollno, student_name, clg_name, branch_name);
 			service.addStudent(s);
 			return new ResponseEntity<>(s, HttpStatus.CREATED);
 
