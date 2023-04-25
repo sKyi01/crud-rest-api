@@ -10,9 +10,8 @@ import jakarta.persistence.Id;
 public class MyStudent {
 
 	@Id
-	// @GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name = "roll_number")
-	private int rollNo;
+	private Long rollNo;
 
 	@Column(name = "student_name")
 	private String name;
@@ -39,11 +38,13 @@ public class MyStudent {
 		this.clgName = clgName;
 	}
 
-	public int getRollNo() {
+
+
+	public Long getRollNo() {
 		return rollNo;
 	}
 
-	public void setRollNo(int rollNo) {
+	public void setRollNo(Long rollNo) {
 		this.rollNo = rollNo;
 	}
 
@@ -55,17 +56,19 @@ public class MyStudent {
 		this.branch = branch;
 	}
 
-	@Override
-	public String toString() {
-		return "MyStudent [name=" + name + ", clgName=" + clgName + ", rollNo=" + rollNo + ", branch=" + branch + "]";
-	}
+	
 
-	public MyStudent(int rollNo, String name, String clgName, String branch) {
+	public MyStudent(Long rollNo, String name, String clgName, String branch) {
 		super();
 		this.name = name;
 		this.clgName = clgName;
 		this.rollNo = rollNo;
 		this.branch = branch;
+	}
+
+	@Override
+	public String toString() {
+		return "MyStudent [rollNo=" + rollNo + ", name=" + name + ", clgName=" + clgName + ", branch=" + branch + "]";
 	}
 
 	public MyStudent() {
