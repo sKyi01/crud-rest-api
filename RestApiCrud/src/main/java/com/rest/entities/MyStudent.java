@@ -38,8 +38,6 @@ public class MyStudent {
 		this.clgName = clgName;
 	}
 
-
-
 	public Long getRollNo() {
 		return rollNo;
 	}
@@ -55,8 +53,6 @@ public class MyStudent {
 	public void setBranch(String branch) {
 		this.branch = branch;
 	}
-
-	
 
 	public MyStudent(Long rollNo, String name, String clgName, String branch) {
 		super();
