@@ -22,7 +22,7 @@ cd your-repo
 mvn clean install 
 # 5.	Run the application:
 mvn spring-boot:run 
-# 6.	The API endpoints will be available at http://localhost:8080.
+# 6.	The API endpoints will be available at http://localhost:3333.
 # API Endpoints
 # The following API endpoints are available:
 •	Create a new entity:
