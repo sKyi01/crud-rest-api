@@ -11,7 +11,7 @@ Prerequisites
 # Getting Started
 # To get started with this project, follow these steps:
 # 1.	Clone the repository:
-git clone https://github.com/your-username/your-repo.git 
+git clone https://github.com/sKyi01/crud-rest-api
 # 2.	Navigate to the project directory:
 cd your-repo 
 # 3.	Configure the Oracle database connection:
@@ -55,6 +55,6 @@ If you'd like to contribute to this project, you can follow these steps:
 # License
 # This project is licensed under the MIT License.
 # Contact
-If you have any questions or feedback, please feel free to reach out to me at your-email@example.com.
+If you have any questions or feedback, please feel free to reach out to me at akashkhandagale038@gmail.com .
 Happy coding!
 
