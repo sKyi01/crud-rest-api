@@ -29,23 +29,29 @@ mvn spring-boot:run
 •	URL: POST /api/add
 •	Request body: JSON payload containing entity data
 •	Response: JSON representation of the created entity
+
 •	Get all entities:
 •	URL: GET /api/getAll
 •	Response: JSON array containing all entities
+
 •	Get an entity by ID:
 •	URL: GET /api/get/{id}
 •	Response: JSON representation of the requested entity
+
 •	Update an existing entity:
 •	URL: PUT /api/update/{id}
 •	Request body: JSON payload containing updated entity data
 •	Response: JSON representation of the updated entity
+
 •	Delete an entity:
 •	URL: DELETE /api/delete/{id}
 •	Response: HTTP 204 No Content if successful
+
 # Additional Configuration
 # You can modify the project configuration based on your specific requirements. Some of the common configurations include:
 •	Changing the server port: Open src/main/resources/application.properties and update the server.port property.
 •	Adding additional fields to the entity: Open the corresponding entity class (Entity.java), add new fields, and update the necessary repositories, services, and controllers.
+
 # Contributing
 If you'd like to contribute to this project, you can follow these steps:
 1.	Fork the repository on GitHub.
@@ -53,8 +59,10 @@ If you'd like to contribute to this project, you can follow these steps:
 3.	Make your modifications and commit your changes.
 4.	Push your branch to your forked repository.
 5.	Submit a pull request to the original repository.
+
 # License
 # This project is licensed under the MIT License.
+
 # Contact
 If you have any questions or feedback, please feel free to reach out to me at akashkhandagale038@gmail.com.
 
