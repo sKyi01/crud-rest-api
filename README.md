@@ -47,7 +47,8 @@ mvn spring-boot:run
 •	URL: DELETE /api/delete/{id}
 •	Response: HTTP 204 No Content if successful
 
-![Screenshot](image_url)
+![Screenshot](![Screenshot (222)](https://github.com/sKyi01/crud-rest-api/assets/113761204/b950a08c-f3ed-4fa3-9096-5f30601ecb94)
+)
 
 
 # Additional Configuration
