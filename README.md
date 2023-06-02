@@ -16,6 +16,7 @@ git clone https://github.com/sKyi01/crud-rest-api
 cd your-repo 
 # 3.	Configure the Oracle database connection:
 •	Open the src/main/resources/application.properties file.
+
 •	Update the spring.datasource.url, spring.datasource.username, and spring.datasource.password properties with your Oracle database connection details.
 # 4.	Build the project using Maven:
 mvn clean install 
