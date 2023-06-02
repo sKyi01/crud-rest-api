@@ -25,21 +25,21 @@ mvn spring-boot:run
 # API Endpoints
 # The following API endpoints are available:
 •	Create a new entity:
-•	URL: POST /api/entities
+•	URL: POST /api/add
 •	Request body: JSON payload containing entity data
 •	Response: JSON representation of the created entity
 •	Get all entities:
-•	URL: GET /api/entities
+•	URL: GET /api/getAll
 •	Response: JSON array containing all entities
 •	Get an entity by ID:
-•	URL: GET /api/entities/{id}
+•	URL: GET /api/get/{id}
 •	Response: JSON representation of the requested entity
 •	Update an existing entity:
-•	URL: PUT /api/entities/{id}
+•	URL: PUT /api/update/{id}
 •	Request body: JSON payload containing updated entity data
 •	Response: JSON representation of the updated entity
 •	Delete an entity:
-•	URL: DELETE /api/entities/{id}
+•	URL: DELETE /api/delete/{id}
 •	Response: HTTP 204 No Content if successful
 # Additional Configuration
 # You can modify the project configuration based on your specific requirements. Some of the common configurations include:
