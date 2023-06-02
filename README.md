@@ -47,6 +47,9 @@ mvn spring-boot:run
 •	URL: DELETE /api/delete/{id}
 •	Response: HTTP 204 No Content if successful
 
+![Screenshot](image_url)
+
+
 # Additional Configuration
 # You can modify the project configuration based on your specific requirements. Some of the common configurations include:
 •	Changing the server port: Open src/main/resources/application.properties and update the server.port property.
