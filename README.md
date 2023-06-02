@@ -55,6 +55,7 @@ If you'd like to contribute to this project, you can follow these steps:
 # License
 # This project is licensed under the MIT License.
 # Contact
-If you have any questions or feedback, please feel free to reach out to me at akashkhandagale038@gmail.com .
+If you have any questions or feedback, please feel free to reach out to me at akashkhandagale038@gmail.com.
+
 Happy coding!
 
