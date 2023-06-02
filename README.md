@@ -1,4 +1,4 @@
-# crud-rest-api
+# ***crud-rest-api***
 
 # CRUD REST API using Spring Boot, JPA, and Oracle Database
 This project is a simple example of a CRUD (Create, Read, Update, Delete) REST API built using Spring Boot, JPA (Java Persistence API), and Oracle Database.
